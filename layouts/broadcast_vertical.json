@@ -1,0 +1,106 @@
+{
+	"act1_grid":
+	{
+		"type": "itemgrid",
+		"h_alignment": "left",
+		"item_margin": "2,2",
+		"item_size": "64,64",
+		"rows":
+		[
+			["stinkbug", "stuntedwolf", "skink", "ant"],
+			["greatersmoke", "cagedwolf", "dagger", "magnificuseye"],
+			["wardrobekey", "hook", "squirreltotem", "ring"],
+			["paintingclover", "extracandle", "beefigurine", "filmroll"]
+		]
+	},
+	
+	"act2_grid":
+	{
+		"type": "itemgrid",
+		"h_alignment": "left",
+		"item_margin": "2,2",
+		"item_size": "64,64",
+		"rows":
+		[
+			["kraken", "drownedsoul", "salmon", "horn"],
+			["camera", "meat", "epitaph", "monocle"],
+			["femur", "obol", "dockclover"]
+			
+		]
+	},
+	
+	"act3_grid":
+	{
+		"type": "itemgrid",
+		"h_alignment": "left",
+		"item_margin": "2,2",
+		"item_size": "64,64",
+		"rows":
+		[
+			["lonelywizbot", "fishbot", "ourobot", "holopelt"],
+			["inspectobattery", "quill", "gemsmodule", "bonelordkey"],
+			["extrabattery", "nanoarmor", "bombremote", "mycokey"]
+			
+		]
+	},
+	
+	"tracker_broadcast": 
+	{
+		"type": "array",
+		"orientation": "vertical",
+		"content": 
+		[
+			{
+				"type": "group",
+				"header": "Act 1",
+				"content": 
+				{
+					"type": "array",
+					"orientation": "horizontal",
+					"margin": "0,0",
+					"content": 
+					[
+						{
+							"type": "layout",
+							"key": "act1_grid"
+						}
+					]
+				}
+			},
+			{
+				"type": "group",
+				"header": "Act 2",
+				"content": 
+				{
+					"type": "array",
+					"orientation": "horizontal",
+					"margin": "0,0",
+					"content": 
+					[
+						{
+							"type": "layout",
+							"key": "act2_grid"
+						}
+					]
+				}
+			},
+			{
+				"type": "group",
+				"header": "Act 3",
+				"content": 
+				{
+					"type": "array",
+					"orientation": "horizontal",
+					"margin": "0,0",
+					"content": 
+					[
+						{
+							"type": "layout",
+							"key": "act3_grid"
+						}
+					]
+				}
+			}
+		]
+	}
+}

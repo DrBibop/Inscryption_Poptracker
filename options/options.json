@@ -1,0 +1,54 @@
+[
+	{
+		"name": "Goal",
+		"codes": "goal",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"stages": 
+		[
+			{
+				"codes": "inorder",
+				"inherit_codes": false,
+				"img": "images/options/goal_inorder.png"
+			},
+			{
+				"codes": "anyorder",
+				"inherit_codes": false,
+				"img": "images/options/goal_anyorder.png"
+			},
+			{
+				"codes": "act1only",
+				"inherit_codes": false,
+				"img": "images/options/goal_act1.png"
+			}
+		] 
+	},
+	{
+		"name": "Epitaph Pieces Randomization",
+		"codes": "epitaphtype",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"stages": 
+		[
+			{
+				"codes": "allpieces",
+				"inherit_codes": false,
+				"img": "images/options/epitaphtype_all.png"
+			},
+			{
+				"codes": "ingroups",
+				"inherit_codes": false,
+				"img": "images/options/epitaphtype_groups.png"
+			},
+			{
+				"codes": "asoneitem",
+				"inherit_codes": false,
+				"img": "images/options/epitaphtype_one.png"
+			}
+		] 
+	},
+]

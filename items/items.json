@@ -1,0 +1,250 @@
+[
+    {
+		"name": "Stinkbug Card",
+		"type": "toggle",
+		"codes": "stinkbug",
+		"img": "images/items/stinkbug.png"
+	},
+    {
+		"name": "Stunted Wolf Card",
+		"type": "toggle",
+		"codes": "stuntedwolf",
+		"img": "images/items/stuntedwolf.png"
+	},
+    {
+		"name": "Wardrobe Key",
+		"type": "toggle",
+		"codes": "wardrobekey",
+		"img": "images/items/wardrobekey.png"
+	},
+    {
+		"name": "Skink Card",
+		"type": "toggle",
+		"codes": "skink",
+		"img": "images/items/skink.png"
+	},
+    {
+		"name": "Ant Cards",
+		"type": "toggle",
+		"codes": "ant",
+		"img": "images/items/ant.png"
+	},
+    {
+		"name": "Caged Wolf Card",
+		"type": "toggle",
+		"codes": "cagedwolf",
+		"img": "images/items/cagedwolf.png"
+	},
+    {
+		"name": "Squirrel Totem Head",
+		"type": "toggle",
+		"codes": "squirreltotem",
+		"img": "images/items/squirreltotem.png"
+	},
+    {
+		"name": "Dagger",
+		"type": "toggle",
+		"codes": "dagger",
+		"img": "images/items/dagger.png"
+	},
+    {
+		"name": "Film Roll",
+		"type": "toggle",
+		"codes": "filmroll",
+		"img": "images/items/filmroll.png"
+	},
+    {
+		"name": "Ring",
+		"type": "toggle",
+		"codes": "ring",
+		"img": "images/items/ring.png"
+	},
+    {
+		"name": "Magnificus Eye",
+		"type": "toggle",
+		"codes": "magnificuseye",
+		"img": "images/items/magnificuseye.png"
+	},
+    {
+		"name": "Oil Painting's Clover Plant",
+		"type": "toggle",
+		"codes": "paintingclover",
+		"img": "images/items/paintingclover.png"
+	},
+    {
+		"name": "Extra Candle",
+		"type": "toggle",
+		"codes": "extracandle",
+		"img": "images/items/extracandle.png"
+	},
+    {
+		"name": "Bee Figurine",
+		"type": "toggle",
+		"codes": "beefigurine",
+		"img": "images/items/beefigurine.png"
+	},
+    {
+		"name": "Greater Smoke",
+		"type": "toggle",
+		"codes": "greatersmoke",
+		"img": "images/items/greatersmoke.png"
+	},
+    {
+		"name": "Angler Hook",
+		"type": "toggle",
+		"codes": "hook",
+		"img": "images/items/hook.png"
+	},
+    {
+		"name": "Camera Replica",
+		"type": "toggle",
+		"codes": "camera",
+		"img": "images/items/camera.png"
+	},
+    {
+		"name": "Pile Of Meat",
+		"type": "toggle",
+		"codes": "meat",
+		"img": "images/items/meat.png"
+	},
+    {
+		"name": "Epitaph Pieces",
+		"type": "consumable",
+		"codes": "epitaph",
+		"img": "images/items/epitaph.png",
+		"max_quantity": 9
+	},
+    {
+		"name": "Monocle",
+		"type": "toggle",
+		"codes": "monocle",
+		"img": "images/items/monocle.png"
+	},
+    {
+		"name": "Bone Lord Femur",
+		"type": "toggle",
+		"codes": "femur",
+		"img": "images/items/femur.png"
+	},
+    {
+		"name": "Bone Lord Horn",
+		"type": "toggle",
+		"codes": "horn",
+		"img": "images/items/horn.png"
+	},
+    {
+		"name": "Bone Lord Holo Key",
+		"type": "toggle",
+		"codes": "bonelordkey",
+		"img": "images/items/bonelordkey.png"
+	},
+    {
+		"name": "Mycologists Holo Key",
+		"type": "toggle",
+		"codes": "mycokey",
+		"img": "images/items/mycokey.png"
+	},
+    {
+		"name": "Ancient Obol",
+		"type": "toggle",
+		"codes": "obol",
+		"img": "images/items/obol.png"
+	},
+    {
+		"name": "Great Kraken Card",
+		"type": "toggle",
+		"codes": "kraken",
+		"img": "images/items/kraken.png"
+	},
+    {
+		"name": "Drowned Soul Card",
+		"type": "toggle",
+		"codes": "drownedsoul",
+		"img": "images/items/drownedsoul.png"
+	},
+    {
+		"name": "Salmon Card",
+		"type": "toggle",
+		"codes": "salmon",
+		"img": "images/items/salmon.png"
+	},
+    {
+		"name": "Dock's Clover Plant",
+		"type": "toggle",
+		"codes": "dockclover",
+		"img": "images/items/dockclover.png"
+	},
+    {
+		"name": "Extra Battery",
+		"type": "toggle",
+		"codes": "extrabattery",
+		"img": "images/items/extrabattery.png"
+	},
+    {
+		"name": "Nano Armor Generator",
+		"type": "toggle",
+		"codes": "nanoarmor",
+		"img": "images/items/nanoarmor.png"
+	},
+    {
+		"name": "Mrs. Bomb's Remote",
+		"type": "toggle",
+		"codes": "bombremote",
+		"img": "images/items/bombremote.png"
+	},
+    {
+		"name": "Inspectometer Battery",
+		"type": "toggle",
+		"codes": "inspectobattery",
+		"img": "images/items/inspectobattery.png"
+	},
+    {
+		"name": "Gems Module",
+		"type": "toggle",
+		"codes": "gemsmodule",
+		"img": "images/items/gemsmodule.png"
+	},
+    {
+		"name": "Lonely Wizbot Card",
+		"type": "toggle",
+		"codes": "lonelywizbot",
+		"img": "images/items/lonelywizbot.png"
+	},
+    {
+		"name": "Fishbot Card",
+		"type": "toggle",
+		"codes": "fishbot",
+		"img": "images/items/fishbot.png"
+	},
+    {
+		"name": "Ourobot Card",
+		"type": "toggle",
+		"codes": "ourobot",
+		"img": "images/items/ourobot.png"
+	},
+    {
+		"name": "Holo Pelt",
+		"type": "consumable",
+		"codes": "holopelt",
+		"img": "images/items/holopelt.png",
+		"max_quantity": 5
+	},
+    {
+		"name": "Quill",
+		"type": "toggle",
+		"codes": "quill",
+		"img": "images/items/quill.png"
+	},
+    {
+		"name": "Currency",
+		"type": "consumable",
+		"codes": "currency",
+		"img": "images/items/currency.png"
+	},
+    {
+		"name": "Card Pack",
+		"type": "consumable",
+		"codes": "cardpack",
+		"img": "images/items/cardpack.png"
+	}
+]

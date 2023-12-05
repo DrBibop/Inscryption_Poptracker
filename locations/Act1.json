@@ -1,0 +1,198 @@
+[
+	{
+		"name": "Act 1",
+		"access_rules":
+		[
+			"$update_options"
+		],
+		"chest_unopened_img": "images/locations/card_hidden_act1.png",
+		"overlay_background": "#000000",
+		"chest_opened_img": "images/locations/card_revealed_act1.png",
+		"color": "#FFFFFF",
+		"children":
+		[
+			{
+				"name": "Game Table",
+				"map_locations":
+				[
+					{
+						"map": "Act 1",
+						"x": 300,
+						"y": 700
+					}
+				],
+				"sections":
+				[
+					{
+						"name": "Boss Prospector",
+						"item_count": 1
+					},
+					{
+						"name": "Boss Angler",
+						"item_count": 1
+					},
+					{
+						"name": "Boss Trapper",
+						"item_count": 1
+					},
+					{
+						"name": "Boss Leshy",
+						"item_count": 1
+					},
+					{
+						"name": "Magnificus Eye",
+						"access_rules":
+						[
+							"$has|dagger"
+						],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Safe",
+				"map_locations":
+				[
+					{
+						"map": "Act 1",
+						"x": 1345,
+						"y": 1015
+					}
+				],
+				"sections":
+				[
+					{
+						"name": "Card",
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Clock",
+				"map_locations":
+				[
+					{
+						"map": "Act 1",
+						"x": 623,
+						"y": 1255
+					}
+				],
+				"sections":
+				[
+					{
+						"name": "Upper Compartment",
+						"item_count": 1
+					},
+					{
+						"name": "Main Compartment",
+						"item_count": 1,
+						"access_rules":
+						[
+							"$has|magnificuseye"
+						]
+					}
+				]
+			},
+			{
+				"name": "Dagger",
+				"map_locations":
+				[
+					{
+						"map": "Act 1",
+						"x": 1317,
+						"y": 315
+					}
+				],
+				"sections":
+				[
+					{
+						"name": "Card",
+						"item_count": 1,
+						"access_rules":
+						[
+							"$has|cagedwolf"
+						]
+					},
+				]
+			},
+			{
+				"name": "Wardrobe",
+				"map_locations":
+				[
+					{
+						"map": "Act 1",
+						"x": 986,
+						"y": 55
+					}
+				],
+				"access_rules":
+				[
+					"$has|wardrobekey"
+				],
+				"sections":
+				[
+					{
+						"name": "Drawer 1",
+						"item_count": 1
+					},
+					{
+						"name": "Drawer 2",
+						"item_count": 1
+					},
+					{
+						"name": "Drawer 3",
+						"item_count": 1
+					},
+					{
+						"name": "Drawer 4",
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Oil Painting",
+				"map_locations":
+				[
+					{
+						"map": "Act 1",
+						"x": 986,
+						"y": 1278
+					}
+				],
+				"sections":
+				[
+					{
+						"name": "Painting 1",
+						"item_count": 1
+					},
+					{
+						"name": "Painting 2",
+						"item_count": 1
+					},
+					{
+						"name": "Painting 3",
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Wall Candles",
+				"map_locations":
+				[
+					{
+						"map": "Act 1",
+						"x": 764,
+						"y": 27
+					}
+				],
+				"sections":
+				[
+					{
+						"name": "Greater Smoke",
+						"item_count": 1
+					}
+				]
+			}
+		]
+	}
+]

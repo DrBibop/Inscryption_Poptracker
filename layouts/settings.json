@@ -1,0 +1,27 @@
+{
+    "settings_popup": {
+        "type": "dock",
+        "background": "#000000",
+        "content": [
+            {
+                "type": "group",
+                "dock": "top",
+                "header": "Settings",
+                "content": [
+                    {
+                        "type": "item",
+                        "item": "goal",
+                        "h_alignment": "left",
+                        "v_alignment": "top"
+                    },
+                    {
+                        "type": "item",
+                        "item": "epitaphtype",
+                        "h_alignment": "left",
+                        "v_alignment": "top"
+                    }
+                ]
+            }
+        ]
+    }
+}

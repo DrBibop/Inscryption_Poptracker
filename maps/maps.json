@@ -1,0 +1,20 @@
+[
+	{
+		"name": "Act 1",
+		"location_size": 48,
+		"location_border_thickness": 2,
+		"img": "images/maps/Act1.png"
+	},
+	{
+		"name": "Act 2",
+		"location_size": 12,
+		"location_border_thickness": 2,
+		"img": "images/maps/Act2.png"
+	},
+	{
+		"name": "Act 3",
+		"location_size": 48,
+		"location_border_thickness": 2,
+		"img": "images/maps/Act3.png"
+	}
+]

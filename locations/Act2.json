@@ -1,0 +1,614 @@
+[
+	{
+		"name": "Act 2",
+		"access_rules":
+		[
+			"$act2_access"
+		],
+		"chest_unopened_img": "images/locations/card_hidden_act2.png",
+		"overlay_background": "#000000",
+		"chest_opened_img": "images/locations/card_revealed_act2.png",
+		"color": "#FFFFFF",
+		"children":
+		[
+			{
+				"name": "Forest - Entrance",
+				"map_locations":
+				[
+					{
+						"map": "Act 2",
+						"x": 562,
+						"y": 107
+					}
+				],
+				"sections":
+				[
+					{
+						"name": "Chest",
+						"item_count": 1
+					},
+					{
+						"name": "Battle Prospector",
+						"access_rules":
+						[
+							"$has|camera, $has|meat"
+						],
+						"item_count": 1
+					},
+					{
+						"name": "Battle Angler",
+						"access_rules":
+						[
+							"$has|camera, $has|meat"
+						],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Forest - Cabin",
+				"map_locations":
+				[
+					{
+						"map": "Act 2",
+						"x": 562,
+						"y": 93
+					}
+				],
+				"sections":
+				[
+					{
+						"name": "Camera",
+						"item_count": 1
+					},
+					{
+						"name": "Safe",
+						"item_count": 1
+					},
+					{
+						"name": "Drawer",
+						"item_count": 1
+					},
+					{
+						"name": "Boss Leshy",
+						"access_rules":
+						[
+							"$has|camera, $has|meat"
+						],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Forest - Meadow",
+				"map_locations":
+				[
+					{
+						"map": "Act 2",
+						"x": 548,
+						"y": 107
+					}
+				],
+				"sections":
+				[
+					{
+						"name": "Chest",
+						"access_rules":
+						[
+							"$has|camera, $has|meat"
+						],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Forest - Trader Room",
+				"map_locations":
+				[
+					{
+						"map": "Act 2",
+						"x": 576,
+						"y": 93
+					}
+				],
+				"sections":
+				[
+					{
+						"name": "Battle Trapper",
+						"access_rules":
+						[
+							"$has|camera, $has|meat"
+						],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Dock",
+				"map_locations":
+				[
+					{
+						"map": "Act 2",
+						"x": 445,
+						"y": 181
+					}
+				],
+				"sections":
+				[
+					{
+						"name": "Chest",
+						"item_count": 1
+					},
+					{
+						"name": "Clover Plant",
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Mycologists Hut",
+				"map_locations":
+				[
+					{
+						"map": "Act 2",
+						"x": 601,
+						"y": 243
+					}
+				],
+				"sections":
+				[
+					{
+						"name": "Holo Key",
+						"access_rules":
+						[
+							"$unlocked_act2_bridge, [$has|monocle]"
+						],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Crypt - Main Room",
+				"map_locations":
+				[
+					{
+						"map": "Act 2",
+						"x": 669,
+						"y": 355
+					}
+				],
+				"sections":
+				[
+					{
+						"name": "Casket 1",
+						"item_count": 1
+					},
+					{
+						"name": "Casket 2",
+						"item_count": 1
+					},
+					{
+						"name": "Well",
+						"item_count": 1
+					},
+					{
+						"name": "Epitaph Piece 1",
+						"item_count": 1
+					},
+					{
+						"name": "Epitaph Piece 2",
+						"item_count": 1
+					},
+					{
+						"name": "Epitaph Piece 3",
+						"item_count": 1
+					},
+					{
+						"name": "Epitaph Piece 5",
+						"item_count": 1
+					},
+					{
+						"name": "Epitaph Piece 6",
+						"item_count": 1
+					},
+					{
+						"name": "Epitaph Piece 8",
+						"item_count": 1
+					},
+					{
+						"name": "Epitaph Piece 9",
+						"item_count": 1
+					},
+					{
+						"name": "Battle Sawyer",
+						"item_count": 1
+					},
+					{
+						"name": "Battle Royal",
+						"item_count": 1
+					},
+					{
+						"name": "Battle Kaycee",
+						"item_count": 1
+					},
+					{
+						"name": "Boss Grimora",
+						"access_rules":
+						[
+							"$has_all_epitaphs"
+						],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Crypt - Mirror Room",
+				"map_locations":
+				[
+					{
+						"map": "Act 2",
+						"x": 676,
+						"y": 341
+					}
+				],
+				"sections":
+				[
+					{
+						"name": "Epitaph Piece 7",
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Crypt - Basement",
+				"map_locations":
+				[
+					{
+						"map": "Act 2",
+						"x": 683,
+						"y": 369
+					}
+				],
+				"sections":
+				[
+					{
+						"name": "Epitaph Piece 4",
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Crypt - Bone Lord's Lair",
+				"map_locations":
+				[
+					{
+						"map": "Act 2",
+						"x": 697,
+						"y": 383
+					}
+				],
+				"sections":
+				[
+					{
+						"name": "Horn",
+						"access_rules":
+						[
+							"$has|obol"
+						],
+						"item_count": 1
+					},
+					{
+						"name": "Femur",
+						"access_rules":
+						[
+							"$has|obol"
+						],
+						"item_count": 1
+					},
+					{
+						"name": "Holo Key",
+						"access_rules":
+						[
+							"$has|obol"
+						],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Tower - First Floor",
+				"map_locations":
+				[
+					{
+						"map": "Act 2",
+						"x": 92,
+						"y": 354
+					}
+				],
+				"sections":
+				[
+					{
+						"name": "Chest",
+						"access_rules":
+						[
+							"$unlocked_act2_bridge"
+						],
+						"item_count": 1
+					},
+					{
+						"name": "Monocle",
+						"access_rules":
+						[
+							"$unlocked_act2_bridge"
+						],
+						"item_count": 1
+					},
+					{
+						"name": "Battle Goobert",
+						"access_rules":
+						[
+							"$unlocked_act2_bridge, [$has|monocle]"
+						],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Tower - Second Floor",
+				"map_locations":
+				[
+					{
+						"map": "Act 2",
+						"x": 92,
+						"y": 322
+					}
+				],
+				"sections":
+				[
+					{
+						"name": "Chest",
+						"access_rules":
+						[
+							"$unlocked_act2_bridge, [$has|monocle]"
+						],
+						"item_count": 1
+					},
+					{
+						"name": "Ancient Obol",
+						"access_rules":
+						[
+							"[$unlocked_act2_bridge], [$has|monocle]"
+						],
+						"item_count": 1
+					},
+					{
+						"name": "Battle Pike Mage",
+						"access_rules":
+						[
+							"$unlocked_act2_bridge, [$has|monocle]"
+						],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Tower - Third Floor",
+				"map_locations":
+				[
+					{
+						"map": "Act 2",
+						"x": 92,
+						"y": 294
+					}
+				],
+				"sections":
+				[
+					{
+						"name": "Chest",
+						"access_rules":
+						[
+							"$unlocked_act2_bridge, [$has|monocle]"
+						],
+						"item_count": 1
+					},
+					{
+						"name": "Battle Lonely Wizard",
+						"access_rules":
+						[
+							"$unlocked_act2_bridge, [$has|monocle]"
+						],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Tower - Fourth Floor",
+				"map_locations":
+				[
+					{
+						"map": "Act 2",
+						"x": 92,
+						"y": 273
+					}
+				],
+				"sections":
+				[
+					{
+						"name": "Boss Magnificus",
+						"access_rules":
+						[
+							"$unlocked_act2_bridge, [$has|monocle]"
+						],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Tower - Water Room",
+				"map_locations":
+				[
+					{
+						"map": "Act 2",
+						"x": 106,
+						"y": 273
+					}
+				],
+				"sections":
+				[
+					{
+						"name": "Tentacle",
+						"access_rules":
+						[
+							"$unlocked_act2_bridge, [$has|monocle]"
+						],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Factory - Entrance",
+				"map_locations":
+				[
+					{
+						"map": "Act 2",
+						"x": 178,
+						"y": 114
+					}
+				],
+				"sections":
+				[
+					{
+						"name": "Trash Can",
+						"access_rules":
+						[
+							"$unlocked_act2_bridge"
+						],
+						"item_count": 1
+					},
+					{
+						"name": "Drawer 1",
+						"access_rules":
+						[
+							"$unlocked_act2_bridge"
+						],
+						"item_count": 1
+					},
+					{
+						"name": "Drawer 2",
+						"access_rules":
+						[
+							"$unlocked_act2_bridge"
+						],
+						"item_count": 1
+					},
+					{
+						"name": "Boss P03",
+						"access_rules":
+						[
+							"$unlocked_act2_bridge"
+						],
+						"item_count": 1
+					},
+				]
+			},
+			{
+				"name": "Factory - Inspection Room",
+				"map_locations":
+				[
+					{
+						"map": "Act 2",
+						"x": 192,
+						"y": 114
+					}
+				],
+				"sections":
+				[
+					{
+						"name": "Chest 1",
+						"access_rules":
+						[
+							"$unlocked_act2_bridge"
+						],
+						"item_count": 1
+					},
+					{
+						"name": "Chest 2",
+						"access_rules":
+						[
+							"$unlocked_act2_bridge"
+						],
+						"item_count": 1
+					},
+					{
+						"name": "Battle Inspector",
+						"access_rules":
+						[
+							"$unlocked_act2_bridge"
+						],
+						"item_count": 1
+					},
+				]
+			},
+			{
+				"name": "Factory - Melting Room",
+				"map_locations":
+				[
+					{
+						"map": "Act 2",
+						"x": 192,
+						"y": 100
+					}
+				],
+				"sections":
+				[
+					{
+						"name": "Battle Melter",
+						"access_rules":
+						[
+							"$unlocked_act2_bridge"
+						],
+						"item_count": 1
+					},
+				]
+			},
+			{
+				"name": "Factory - Dredging Room",
+				"map_locations":
+				[
+					{
+						"map": "Act 2",
+						"x": 192,
+						"y": 132
+					}
+				],
+				"sections":
+				[
+					{
+						"name": "Chest 1",
+						"access_rules":
+						[
+							"$unlocked_act2_bridge"
+						],
+						"item_count": 1
+					},
+					{
+						"name": "Chest 2",
+						"access_rules":
+						[
+							"$unlocked_act2_bridge"
+						],
+						"item_count": 1
+					},
+					{
+						"name": "Battle Dredger",
+						"access_rules":
+						[
+							"$unlocked_act2_bridge"
+						],
+						"item_count": 1
+					},
+				]
+			},
+		]
+	}
+]

@@ -1,0 +1,313 @@
+{
+	"act1_grid":
+	{
+		"type": "itemgrid",
+		"h_alignment": "left",
+		"item_margin": "2,2",
+		"item_size": "64,64",
+		"rows":
+		[
+			["stinkbug", "stuntedwolf", "skink", "ant"],
+			["greatersmoke", "cagedwolf", "dagger", "magnificuseye"],
+			["wardrobekey", "hook", "squirreltotem", "ring"],
+			["paintingclover", "extracandle", "beefigurine", "filmroll"]
+		]
+	},
+	
+	"act2_grid":
+	{
+		"type": "itemgrid",
+		"h_alignment": "left",
+		"item_margin": "2,2",
+		"item_size": "64,64",
+		"rows":
+		[
+			["kraken", "drownedsoul", "salmon", "horn"],
+			["camera", "meat", "epitaph", "monocle"],
+			["femur", "obol", "dockclover"]
+			
+		]
+	},
+	
+	"act3_grid":
+	{
+		"type": "itemgrid",
+		"h_alignment": "left",
+		"item_margin": "2,2",
+		"item_size": "64,64",
+		"rows":
+		[
+			["lonelywizbot", "fishbot", "ourobot", "holopelt"],
+			["inspectobattery", "quill", "gemsmodule", "bonelordkey"],
+			["extrabattery", "nanoarmor", "bombremote", "mycokey"]
+			
+		]
+	},
+	
+	"options_grid":
+	{
+		"type": "itemgrid",
+		"h_alignment": "right",
+		"item_margin": "2,2",
+		"item_size": "64,64",
+		"rows":
+		[
+			["goal", "epitaphtype"]
+		]
+	},
+	
+	"tracker_horizontal": 
+	{
+		"type": "container",
+		"content": 
+		{
+			"type": "dock",
+			"dropshadow": true,
+			"content": 
+			[
+				{
+					"type": "array",
+					"dock": "left",
+					"orientation": "vertical",
+					"content": 
+					[
+						{
+							"type": "group",
+							"header": "Act 1",
+							"content": 
+							{
+								"type": "array",
+								"orientation": "horizontal",
+								"margin": "0,0",
+								"content": 
+								[
+									{
+										"type": "layout",
+										"key": "act1_grid"
+									}
+								]
+							}
+						},
+						{
+							"type": "group",
+							"header": "Act 2",
+							"content": 
+							{
+								"type": "array",
+								"orientation": "horizontal",
+								"margin": "0,0",
+								"content": 
+								[
+									{
+										"type": "layout",
+										"key": "act2_grid"
+									}
+								]
+							}
+						},
+						{
+							"type": "group",
+							"header": "Act 3",
+							"content": 
+							{
+								"type": "array",
+								"orientation": "horizontal",
+								"margin": "0,0",
+								"content": 
+								[
+									{
+										"type": "layout",
+										"key": "act3_grid"
+									}
+								]
+							}
+						}
+					]
+				},
+				{
+					"type": "dock",
+					"v_alignment": "stretch",
+					"h_alignment": "stretch",
+					"margin": "0, 0, 0, 0",
+					"content": [
+						{
+							"type": "tabbed",
+							"dock": "top",
+							"tabs": 
+							[
+								{ 
+									"title": "Act 1",
+									"content": 
+									{
+										"type": "map",
+										"maps": ["Act 1"]
+									}
+								},
+								{ 
+									"title": "Act 2",
+									"content": 
+									{
+										"type": "map",
+										"maps": ["Act 2"]
+									}
+								},
+								{ 
+									"title": "Act 3",
+									"content": 
+									{
+										"type": "map",
+										"maps": ["Act 3"]
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "array",
+					"dock": "right",
+					"orientation": "vertical",
+					"content": 
+					[
+						{
+							"type": "group",
+							"header": "Options",
+							"content": 
+							{
+								"type": "array",
+								"orientation": "horizontal",
+								"margin": "0,0",
+								"content": 
+								[
+									{
+										"type": "layout",
+										"key": "options_grid"
+									}
+								]
+							}
+						}
+					]
+				},
+			]
+		}
+	},
+	
+	"tracker_vertical":
+	{
+		"type": "container",
+		"content": 
+		{
+			"type": "dock",
+			"dropshadow": true,
+			"content": 
+			[
+				{
+					"type": "dock",
+					"dock": "bottom",
+					"h_alignment": "stretch",
+					"content": 
+					[
+						{
+							"type": "array",
+							"orientation": "horizontal",
+							"content": 
+							[
+								{
+									"type": "group",
+									"header": "Act 1",
+									"content": 
+									{
+										"type": "array",
+										"orientation": "vertical",
+										"margin": "0,0",
+										"content": 
+										[
+											{
+												"type": "layout",
+												"key": "act1_grid"
+											}
+										]
+									}
+								},
+								{
+									"type": "group",
+									"header": "Act 2",
+									"content": 
+									{
+										"type": "array",
+										"orientation": "vertical",
+										"margin": "0,0",
+										"content": 
+										[
+											{
+												"type": "layout",
+												"key": "act2_grid"
+											}
+										]
+									}
+								},
+								{
+									"type": "group",
+									"header": "Act 3",
+									"content": 
+									{
+										"type": "array",
+										"orientation": "vertical",
+										"margin": "0,0",
+										"content": 
+										[
+											{
+												"type": "layout",
+												"key": "act3_grid"
+											}
+										]
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "dock",
+					"v_alignment": "stretch",
+					"h_alignment": "stretch",
+					"margin": "0, 0, 0, 0",
+					"content":
+					[
+						{
+							"type": "tabbed",
+							"dock": "top",
+							"tabs": 
+							[
+								{ 
+									"title": "Act 1",
+									"content": 
+									{
+										"type": "map",
+										"maps": ["Act 1"]
+									}
+								},
+								{ 
+									"title": "Act 2",
+									"content": 
+									{
+										"type": "map",
+										"maps": ["Act 2"]
+									}
+								},
+								{ 
+									"title": "Act 3",
+									"content": 
+									{
+										"type": "map",
+										"maps": ["Act 3"]
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	}
+}

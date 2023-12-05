@@ -1,0 +1,590 @@
+[
+	{
+		"name": "Act 3",
+		"access_rules":
+		[
+			"$act3_access"
+		],
+		"chest_unopened_img": "images/locations/card_hidden_act3.png",
+		"overlay_background": "#000000",
+		"chest_opened_img": "images/locations/card_revealed_act3.png",
+		"color": "#FFFFFF",
+		"children":
+		[
+			{
+				"name": "Trader",
+				"map_locations":
+				[
+					{
+						"map": "Act 3",
+						"x": 240,
+						"y": 1986
+					}
+				],
+				"sections":
+				[
+					{
+						"name": "Trade 1",
+						"access_rules":
+						[
+							"$has|inspectobattery, $has|gemsmodule, holopelt:1"
+						],
+						"item_count": 1
+					},
+					{
+						"name": "Trade 2",
+						"access_rules":
+						[
+							"$has|inspectobattery, $has|gemsmodule, holopelt:2"
+						],
+						"item_count": 1
+					},
+					{
+						"name": "Trade 3",
+						"access_rules":
+						[
+							"$has|inspectobattery, $has|gemsmodule, holopelt:3"
+						],
+						"item_count": 1
+					},
+					{
+						"name": "Trade 4",
+						"access_rules":
+						[
+							"$has|inspectobattery, $has|gemsmodule, holopelt:4"
+						],
+						"item_count": 1
+					},
+					{
+						"name": "Trade 5",
+						"access_rules":
+						[
+							"$has|inspectobattery, $has|gemsmodule, holopelt:5"
+						],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Clock",
+				"map_locations":
+				[
+					{
+						"map": "Act 3",
+						"x": 603,
+						"y": 2130
+					}
+				],
+				"sections":
+				[
+					{
+						"name": "Main Compartment",
+						"access_rules":
+						[
+							"[$has|inspectobattery], [$has|gemsmodule]"
+						],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Drawer Puzzles",
+				"map_locations":
+				[
+					{
+						"map": "Act 3",
+						"x": 1153,
+						"y": 1989
+					}
+				],
+				"sections":
+				[
+					{
+						"name": "Left Drawer",
+						"item_count": 1
+					},
+					{
+						"name": "Right Drawer",
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Inspectometer",
+				"map_locations":
+				[
+					{
+						"map": "Act 3",
+						"x": 2159,
+						"y": 2131
+					}
+				],
+				"sections":
+				[
+					{
+						"name": "Battery Slot",
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Chest",
+				"map_locations":
+				[
+					{
+						"map": "Act 3",
+						"x": 1845,
+						"y": 1934
+					}
+				],
+				"sections":
+				[
+					{
+						"name": "Card",
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Goobert's Dimension",
+				"map_locations":
+				[
+					{
+						"map": "Act 3",
+						"x": 2155,
+						"y": 1210
+					}
+				],
+				"sections":
+				[
+					{
+						"name": "Painting",
+						"access_rules":
+						[
+							"$has|inspectobattery, [$has|gemsmodule]"
+						],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Gems Drone",
+				"map_locations":
+				[
+					{
+						"map": "Act 3",
+						"x": 1531,
+						"y": 1494
+					}
+				],
+				"sections":
+				[
+					{
+						"name": "Card",
+						"access_rules":
+						[
+							"$has|inspectobattery"
+						],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Starting Area",
+				"map_locations":
+				[
+					{
+						"map": "Act 3",
+						"x": 1124,
+						"y": 155
+					}
+				],
+				"sections":
+				[
+					{
+						"name": "The Great Transcendance",
+						"access_rules":
+						[
+							"$has|inspectobattery, $has|gemsmodule, $has|quill"
+						],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Extra Battery",
+				"map_locations":
+				[
+					{
+						"map": "Act 3",
+						"x": 1225,
+						"y": 331
+					}
+				],
+				"sections":
+				[
+					{
+						"name": "Card",
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Shop",
+				"map_locations":
+				[
+					{
+						"map": "Act 3",
+						"x": 1124,
+						"y": 677
+					}
+				],
+				"sections":
+				[
+					{
+						"name": "Nano Armor Generator",
+						"access_rules":
+						[
+							"[$has|inspectobattery], [$has|gemsmodule]"
+						],
+						"item_count": 1
+					},
+					{
+						"name": "Holo Pelt",
+						"access_rules":
+						[
+							"[$has|inspectobattery], [$has|gemsmodule]"
+						],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Middle Pelt Room",
+				"map_locations":
+				[
+					{
+						"map": "Act 3",
+						"x": 1020,
+						"y": 677
+					}
+				],
+				"sections":
+				[
+					{
+						"name": "Holo Pelt",
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Secret Mycologists Room",
+				"map_locations":
+				[
+					{
+						"map": "Act 3",
+						"x": 1947,
+						"y": 561
+					}
+				],
+				"sections":
+				[
+					{
+						"name": "Boss Mycologists",
+						"access_rules":
+						[
+							"$has|inspectobattery, $has|mycokey, [$has|gemsmodule]"
+						],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Forest - File Room",
+				"map_locations":
+				[
+					{
+						"map": "Act 3",
+						"x": 1741,
+						"y": 503
+					}
+				],
+				"sections":
+				[
+					{
+						"name": "Luke's File Entry",
+						"access_rules":
+						[
+							"$has|inspectobattery, $has|quill"
+						],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Forest - Holo Pelt",
+				"map_locations":
+				[
+					{
+						"map": "Act 3",
+						"x": 1947,
+						"y": 272
+					}
+				],
+				"sections":
+				[
+					{
+						"name": "Holo Pelt",
+						"access_rules":
+						[
+							"$has|inspectobattery"
+						],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Forest - Boss Room",
+				"map_locations":
+				[
+					{
+						"map": "Act 3",
+						"x": 1844,
+						"y": 37
+					}
+				],
+				"sections":
+				[
+					{
+						"name": "Boss Photographer",
+						"access_rules":
+						[
+							"$has|inspectobattery"
+						],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Crypt - Holo Pelt",
+				"map_locations":
+				[
+					{
+						"map": "Act 3",
+						"x": 2049,
+						"y": 852
+					}
+				],
+				"sections":
+				[
+					{
+						"name": "Holo Pelt",
+						"access_rules":
+						[
+							"$has|inspectobattery"
+						],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Crypt - Well Room",
+				"map_locations":
+				[
+					{
+						"map": "Act 3",
+						"x": 2153,
+						"y": 793
+					}
+				],
+				"sections":
+				[
+					{
+						"name": "Well",
+						"access_rules":
+						[
+							"$has|inspectobattery"
+						],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Crypt - Bone Lord's Lair",
+				"map_locations":
+				[
+					{
+						"map": "Act 3",
+						"x": 2360,
+						"y": 736
+					}
+				],
+				"sections":
+				[
+					{
+						"name": "Bone Lord",
+						"access_rules":
+						[
+							"$has|inspectobattery, $has|bonelordkey"
+						],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Crypt - Boss Room",
+				"map_locations":
+				[
+					{
+						"map": "Act 3",
+						"x": 2256,
+						"y": 677
+					}
+				],
+				"sections":
+				[
+					{
+						"name": "Boss Archivist",
+						"access_rules":
+						[
+							"$has|inspectobattery, $has|quill"
+						],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "West Bridge - File Room",
+				"map_locations":
+				[
+					{
+						"map": "Act 3",
+						"x": 608,
+						"y": 503
+					}
+				],
+				"sections":
+				[
+					{
+						"name": "Luke's File Entry",
+						"access_rules":
+						[
+							"$has|inspectobattery, $has|quill"
+						],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Factory - File Room",
+				"map_locations":
+				[
+					{
+						"map": "Act 3",
+						"x": 401,
+						"y": 560
+					}
+				],
+				"sections":
+				[
+					{
+						"name": "Luke's File Entry",
+						"access_rules":
+						[
+							"$has|inspectobattery, $has|quill"
+						],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Tower - Holo Pelt",
+				"map_locations":
+				[
+					{
+						"map": "Act 3",
+						"x": 815,
+						"y": 793
+					}
+				],
+				"sections":
+				[
+					{
+						"name": "Holo Pelt",
+						"access_rules":
+						[
+							"$has|inspectobattery, $has|gemsmodule"
+						],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Tower - File Room",
+				"map_locations":
+				[
+					{
+						"map": "Act 3",
+						"x": 299,
+						"y": 793
+					}
+				],
+				"sections":
+				[
+					{
+						"name": "Luke's File Entry",
+						"access_rules":
+						[
+							"$has|inspectobattery, $has|gemsmodule, $has|quill"
+						],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Tower - Boss Room",
+				"map_locations":
+				[
+					{
+						"map": "Act 3",
+						"x": 93,
+						"y": 677
+					}
+				],
+				"sections":
+				[
+					{
+						"name": "Boss Unfinished",
+						"access_rules":
+						[
+							"$has|inspectobattery, $has|gemsmodule"
+						],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Factory - Boss Room",
+				"map_locations":
+				[
+					{
+						"map": "Act 3",
+						"x": 505,
+						"y": 96
+					}
+				],
+				"sections":
+				[
+					{
+						"name": "Boss G0lly",
+						"access_rules":
+						[
+							"$has|inspectobattery, $has|gemsmodule"
+						],
+						"item_count": 1
+					}
+				]
+			},
+		]
+	}
+]

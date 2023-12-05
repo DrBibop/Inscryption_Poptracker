@@ -1,0 +1,20 @@
+{
+    "name": "Inscryption Archipelago Randomizer",
+	"game_name": "Inscryption",
+    "author": "DrBibop",
+    "package_uid": "InscryptionTracker",
+    "package_version": "1.0",
+    "platform": "PC",
+    "variants": {
+        "map_tracker": {
+			"display_name": "Map Tracker",
+			"flags": [ "ap" ]
+		},
+		"items_only":{
+			"display_name": "Items Only",
+			"flags": [ "ap" ]
+		}
+    },
+    "min_poptracker_version": "0.23.1",
+    "target_poptracker_version": "0.23.1"
+}
