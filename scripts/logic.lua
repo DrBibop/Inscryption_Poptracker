@@ -52,7 +52,7 @@ end
 function unlocked_act2_bridge()
   if has("camera", 1) and has("meat", 1) then
     return true
-  elseif has("epitaph", 9) then
+  elseif has_all_epitaphs() then
     return true
   end
 end
