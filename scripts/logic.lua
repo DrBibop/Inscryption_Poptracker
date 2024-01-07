@@ -73,7 +73,7 @@ end
 function act3_access()
   local goal = Tracker:FindObjectForCode("goal")
   if goal.CurrentStage == 0  then
-    if has("filmroll", 1) and has("camera", 1) and has_all_epitaphs() and has("monocle", 1) then
+    if has("filmroll", 1) and has("camera", 1) and has("meat", 1) and has_all_epitaphs() and has("monocle", 1) then
 	  return true
 	end
   elseif goal.CurrentStage == 1 then
